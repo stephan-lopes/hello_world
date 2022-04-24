@@ -3,5 +3,5 @@
 
 - name: Print hello_world
   debug:
-    msg: "Hello World!"
+    msg: "{{ text }}"
   
