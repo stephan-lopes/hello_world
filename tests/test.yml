@@ -2,5 +2,8 @@
 - hosts: localhost
   connection: local
 
-  roles:
-    - hello_world
+  roles: 
+    - role: hello_world
+      vars:
+        - text: "Hello World"
+      become: false
